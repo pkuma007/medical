@@ -21,17 +21,17 @@
         function initReveal() {
             if ($this.outerHeight() <= $win.outerHeight()) {
                 $this.css({
-                    'z-index': -999,
-                    position: 'fixed',
-                    bottom: 0
+                    //'z-index': -999,
+                    //position: 'fixed',
+                    ////bottom: 50
                 });
 
                 $this.css({
-                    'width': $prev.outerWidth()
+                    //'width': $prev.outerWidth()
                 });
 
                 $prev.css({
-                    'margin-bottom': $this.outerHeight()
+                    //'margin-bottom': $this.outerHeight()
                 });
             } else {
                 $this.css({
